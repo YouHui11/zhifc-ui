@@ -1,0 +1,24 @@
+{
+  "name": "zhfc-ui-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.14.0",
+    "highlight.js": "^10.3.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.5",
+    "zhfc-libs": "^0.1.8"
+  }
+}
